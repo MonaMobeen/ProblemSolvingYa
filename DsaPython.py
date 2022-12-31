@@ -143,3 +143,31 @@ if __name__ == '__main__':
     llist.sortLinkedList(llist.head)
     print("Sorted List: ")
     llist.printList()
+  
+    /*if __name__ == '__main__':
+
+    llist = LinkedList()
+    llist.insertAtEnd(1)
+    llist.insertAtBeginning(2)
+    llist.insertAtBeginning(3)
+    llist.insertAtEnd(4)
+    llist.insertAfter(llist.head.next, 5)
+
+    print('linked list:')
+    llist.printList()
+
+    print("\nAfter deleting an element:")
+    llist.deleteNode(3)
+    llist.printList()
+
+    print()
+    item_to_find = 3
+    if llist.search(item_to_find):
+        print(str(item_to_find) + " is found")
+    else:
+        print(str(item_to_find) + " is not found")
+
+    llist.sortLinkedList(llist.head)
+    print("Sorted List: ")
+    llist.printList()*/
+ 
